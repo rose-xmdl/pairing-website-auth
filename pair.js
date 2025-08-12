@@ -79,11 +79,24 @@ router.get('/', async (req, res) => {
 
                         // Send warning message
                         await EliteProTech.sendMessage(userJid, {
-                            text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using Knight Bot
-│└────────────┈ ⳹        
-│©2024 Mr Unique Hacker 
-└─────────────────┈ ⳹\n\n`
+                            text: `✅ *SESSION ID OBTAINED SUCCESSFULLY!*  
+📁 Upload SESSION_ID (creds.json) on session folder or add it to your .env file: SESSION_ID=
+
+📢 *Stay Updated — Follow Our Channels:*
+
+➊ *WhatsApp Channel*  
+https://whatsapp.com/channel/0029VaXaqHII1rcmdDBBsd3g
+
+➋ *Telegram*  
+https://t.me/elitepro_md
+
+➌ *YouTube*  
+https://youtube.com/@eliteprotechs
+
+🚫 *Do NOT share your session ID or creds.json with anyone.*
+
+🌐 *Explore more tools on our website:*  
+https://eliteprotech.zone.id`
                         });
                         console.log("⚠️ Warning message sent successfully");
 
